@@ -1,0 +1,23 @@
+body {
+  width: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.color-container {
+  height: 3rem;
+  width: 3rem;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
+#color {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  opacity: 0;
+}
